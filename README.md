@@ -8,7 +8,7 @@ Format the markdown table in any editor that supports an external command
 
 # 效果
 ![sublime](sublime_fmt.gif)
-![phpstorm](phpstorm_fmt.gif)
+![phpstorm](ps_fmt.gif)
 
 # sublime text3 中安装使用
 1.下载文件(以mac系统为例, 假设安装在`/data/`目录下)
