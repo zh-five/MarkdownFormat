@@ -2,9 +2,10 @@
 Format the markdown table in any editor that supports an external command
 
 # 格式化markdown表格的工具
-- 支持utf-8, 需要等宽字体
+- 支持中文等多字节字符, 需要等宽字体
 - 支持任意可自定义外部命令的编辑器
 - php编写, 运行时需要php引擎
+
 
 # 效果
 ![sublime](sublime_fmt.gif)
@@ -14,7 +15,7 @@ Format the markdown table in any editor that supports an external command
 1.下载文件(以mac系统为例, 假设安装在`/data/`目录下)
 ```bash
 cd /data
-git@github.com:zh-five/MarkdownFormat.git
+git clone git@github.com:zh-five/MarkdownFormat.git
 ```
 
 2.在sublime text3中, 为markdown文档配置一条build命令
@@ -56,7 +57,7 @@ c |d
 1.下载文件(以mac系统为例, 假设安装在`/data/`目录下)
 ```bash
 cd /data
-git@github.com:zh-five/MarkdownFormat.git
+git clone git@github.com:zh-five/MarkdownFormat.git
 ```
 
 2.在phpstorm中配置一条扩展命令
