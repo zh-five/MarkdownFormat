@@ -23,9 +23,8 @@ git clone git@github.com:zh-five/MarkdownFormat.git
 打开文件后, 复制以下内容写入
 ```
 {
-    "shell_cmd": "php /data/MarkdownFormat/mdfmt.php $file 3 5;",
-    //若你安装的php在命令行下不能直接调用, 可以使用绝对路径,如:
-    //"shell_cmd": "/usr/bin/php /data/MarkdownFormat/mdfmt.php $file 3 5;",
+    //注意更换路径和调整参数(因系统和字体的不同可能需要调整参数, 见文档末`其它一些问题`)
+    "shell_cmd": "/usr/bin/php /data/MarkdownFormat/mdfmt.php $file 3 5;",
     
     //文档选择器, 限制为只对markdown文档有效
     "selector": "text.html.markdown" 
@@ -90,4 +89,3 @@ git clone git@github.com:zh-five/MarkdownFormat.git
 
 注意, 编辑器一定要设为等宽字体, 格式化工具才能正常工作. (不过编辑器的默认字体一般都是等宽字体)
 若还有其它问题, 请留言.
-
